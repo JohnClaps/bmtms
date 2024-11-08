@@ -1,5 +1,5 @@
 {
-  "name": "hardhat-boilerplate",
+  "name": "bmtms",
   "version": "1.0.0",
   "description": "A boilerplate repository to get you started with Hardhat and Ethereum development",
   "scripts": {
@@ -28,5 +28,14 @@
     "hardhat": "^2.12.5",
     "hardhat-gas-reporter": "^1.0.9",
     "solidity-coverage": "^0.8.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1",
+    "pg-pool": "^3.7.0",
+    "scripts": "^0.1.0"
   }
 }

@@ -1,0 +1,47 @@
+.site-user-home-screen {
+    background-color: #f9fafb;
+    min-height: 100vh;
+}
+
+  
+  .navbar {
+    background-color: #343a40;
+  }
+  
+  .nav-link {
+    font-size: 1.1rem;
+  }
+  
+  .dashboard-card {
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quick-access-card {
+    padding: 20px;
+  }
+  
+  .transaction-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .transaction-list li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+  
+  button {
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #007bff;
+  }
+  

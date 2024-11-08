@@ -1,0 +1,41 @@
+.sidebar-container {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1050; /* Ensure the header stays on top */
+  background-color: #f8f9fa; /* Light background for contrast */
+  
+}
+.sidebar {
+
+  height: 100vh;
+  overflow-y: auto; /* Enable vertical scrolling */
+  background-color: #343a40; /* Dark background */
+  z-index: 1000; /* Ensure it's below the header */
+}
+
+.content-area {
+  height: 100vh;
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding-top: 56px; /* Adjust for fixed header height */
+}
+
+.quick-links {
+  height: 100vh;
+  overflow-y: auto; /* Enable vertical scrolling */
+  background-color: #6c757d; /* Slightly lighter background */
+  z-index: 1000; /* Ensure it's below the header */
+  position: sticky;
+  top: 0;
+}
+
+.sidebar-container.scrolled {
+  background-color: #f8f9fa; /* Change background when scrolled */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+}

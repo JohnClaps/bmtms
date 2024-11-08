@@ -1,0 +1,40 @@
+.header-section {
+    height: 70px;
+  }
+  
+  .header-section .navbar-brand img {
+    object-fit: contain;
+  }
+  
+  .header-section .form-control {
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .header-section .form-control:focus {
+    border-color: transparent;
+    box-shadow: 0px 0px 4px rgba(0, 123, 255, 0.5);
+  }
+  
+  .header-section .fa-bell {
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .header-section .badge {
+    font-size: 0.8rem;
+    padding: 4px 6px;
+  }
+  
+  .notification-dropdown .dropdown-menu-right {
+    position: absolute;
+    right: 0;
+    top: 40px; /* Adjust this based on where you want it to appear */
+    z-index: 1050; /* Ensures it overlays properly */
+  }
+  
+  .notification-tray {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  

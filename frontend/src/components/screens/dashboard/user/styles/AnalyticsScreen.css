@@ -1,0 +1,44 @@
+/* AnalyticsScreen.css */
+
+/* Ensure the main content area takes up the remaining space and has consistent padding */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .sidebar {
+    /* Add your sidebar styles here */
+    width: 250px;
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  .container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .row {
+    margin-bottom: 30px; /* Space between rows */
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem; /* Ensure all rows have consistent bottom margin */
+  }
+  
+  /* Ensure components like TopStats, Charts, etc., are centered with some padding */
+  .TopStats, .Charts, .PieChart, .Calendar, .Map, .LineChart {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  /* Optional: Adjust the footer for spacing at the bottom */
+  .MinFooter {
+    margin-top: 40px;
+  }
+  

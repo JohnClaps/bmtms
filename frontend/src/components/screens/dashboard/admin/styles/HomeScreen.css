@@ -1,0 +1,52 @@
+.home-screen {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  margin: 0; /* Ensure no margin at the top */
+  padding: 0; /* Ensure no padding at the top */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.content {
+  padding: 20px; /* Add some padding to the content */
+}
+
+.dashboard-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px; /* Add some space between cards */
+}
+
+.quick-access-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Add some space between quick access cards */
+}
+
+.notification-list,
+.transaction-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.transaction-list li {
+  border-bottom: 1px solid #e9ecef;
+  padding: 8px 0;
+}
+
+.transaction-list li:last-child {
+  border-bottom: none;
+}
+
+/* Ensure all sections align properly and take full width */
+.container-fluid {
+  padding-left: 15px; /* Ensure padding aligns with Bootstrap grid */
+  padding-right: 15px; /* Ensure padding aligns with Bootstrap grid */
+}
+
+.row {
+  margin: 0; /* Remove default row margin */
+}
